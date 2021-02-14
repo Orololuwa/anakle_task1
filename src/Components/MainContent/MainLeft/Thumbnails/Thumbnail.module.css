@@ -1,0 +1,39 @@
+.Thumbnail{
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.Thumbnail a:link,
+.Thumbnail a:visited{
+    padding: 1rem 3rem;
+    border: 1px solid #E1E1E1;
+    margin-left: 3rem;
+
+    opacity: 0.6;
+}
+
+.Thumbnail a:hover,
+.Thumbnail a:active,
+.Thumbnail a:focus{
+    border: 1.5px solid #676767;
+    border-radius: 8px;
+
+    opacity: 1;
+
+    transition: all .2s;
+}
+
+.Thumbnail a img{
+    display: block;
+    
+}
+
+@media only screen and (max-width: 900px){
+    .Thumbnail{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,116 @@
+.OrderSummary{
+    border-top: 1px solid #e1e1e1;
+    height: 8rem;
+    display: flex;
+    flex-grow: column;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.OrderSummary .Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 30rem;
+    height: 100%;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: #1C1C1C;
+
+    border-right: 1px solid #e1e1e1;
+    margin-right: 5rem;
+
+    
+}
+
+
+.OrderSummary .Description {
+    flex-basis: 100%;
+    display: flex;
+    flex-grow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OrderSummary .Description .col1 h3{
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: .8rem;
+    color: #1C1C1C;
+}
+
+.OrderSummary .Description .col1 p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: #676767;
+}
+
+.OrderSummary .Description .col2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+.OrderSummary .Description .col2 p {
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: #1C1C1C;
+    padding-right: 5rem;
+}
+
+.OrderSummary .Description .col2 button{
+    background-color: #1c1c1c;
+    color: #fff;
+    width: 23rem;
+    height: 6rem;
+}
+
+.OrderSummary .Description .col2 button:focus{
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {    
+    .OrderSummary .Title{
+        flex-basis: 10rem;
+        font-size: 2remrem;
+        margin-right: 1rem;
+    
+        
+    }
+        
+    .OrderSummary .Description .col1 h3{
+        font-size: 1.8rem;
+    }
+    
+    .OrderSummary .Description .col1 p{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    
+    .OrderSummary .Description .col2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 1rem;
+    }
+    
+    .OrderSummary .Description .col2 p {
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .OrderSummary .Description .col2 button{
+        width: 10rem;
+        height: 2rem;            
+        color: #1c1c1c;
+        background-color: #fff;
+        text-decoration: underline;
+        border: none;
+    }
+}

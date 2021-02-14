@@ -1,0 +1,16 @@
+.Main {
+    padding: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .Main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

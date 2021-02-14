@@ -1,0 +1,48 @@
+.AuxButton{
+    height: auto;
+    width: 22rem;
+    background-color: #fff;
+    color: #676767;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.AuxButton .row1 i {
+    opacity: 0;
+}
+
+
+.AuxButton .row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: #676767;
+}
+
+.AuxButton .row2,
+.AuxButton .row3{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #676767;
+}
+
+.AuxInput input{
+    opacity: 0;
+}
+
+.AuxInput input:checked ~ .AuxButton .row1 i{
+    opacity: 1;
+    transition: all .2s;
+}
+
+.AuxInput input:checked ~ .AuxButton{
+    border: 1px solid transparent;
+    transition: all .2s;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}

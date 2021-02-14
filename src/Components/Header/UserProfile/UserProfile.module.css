@@ -1,0 +1,23 @@
+.UserProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.UserProfile img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-size: 100%;
+    margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 600px){
+    .UserProfile {
+        padding-left: 1rem;
+    }
+}

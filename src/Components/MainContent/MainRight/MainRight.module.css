@@ -1,0 +1,23 @@
+.MainRight{
+    display: inline-block;
+    width: 50rem;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+.MainRight .TextBox{
+    margin-top: 2rem;
+}
+
+.MainRight .TextBox .Heading{
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 7rem;
+    color: #1C1C1C;
+}
+
+.MainRight .TextBox .Paragraph{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #676767;
+}

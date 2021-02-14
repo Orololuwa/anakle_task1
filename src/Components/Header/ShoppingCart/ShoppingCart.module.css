@@ -1,0 +1,40 @@
+.ShoppingCart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 4rem;
+    padding-right: 4rem;
+}
+
+.ShoppingCart::after{
+    content: "";
+    display: block;
+    height: 8rem;
+    padding-right: 4rem;
+    border-right: 1px solid #e1e1e1;
+}
+
+.ShoppingCart p{
+    padding: 4px 12px;
+}
+
+.ShoppingCart i{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px){
+    .ShoppingCart{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        line-height: 4rem;
+        padding-right: 1rem;
+    }
+
+    .ShoppingCart::after{
+        padding-right: 1rem;
+    }
+}

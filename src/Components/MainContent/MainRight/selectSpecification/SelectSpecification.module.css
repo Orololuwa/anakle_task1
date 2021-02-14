@@ -1,0 +1,18 @@
+.SelectSpecification{
+    margin-top: 4rem;
+}
+
+.SelectSpecification p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+    
+}
+
+.SelectSpecification .Cards {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

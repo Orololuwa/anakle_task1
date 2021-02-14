@@ -1,0 +1,18 @@
+.SelectColor{
+    margin-top: 5rem;
+}
+
+.SelectColor p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    text-align: left;
+    
+}
+
+.SelectColor .Cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

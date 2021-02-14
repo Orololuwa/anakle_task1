@@ -1,0 +1,47 @@
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul {
+    list-style: none;
+}
+
+.Menu ul li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-right: 3rem;
+    
+    text-align: right;
+    text-transform: capitalize;
+    
+}
+
+.Menu ul li a:link,
+.Menu ul li a:visited{
+    text-decoration: none;
+    padding: 4px 8px;
+
+}
+
+.Menu ul li a:hover,
+.Menu ul li a:active{
+    background: #E1E1E1;
+    border-radius: 2px;
+    transition: all .2s;
+}
+
+@media only screen and (max-width: 600px) {
+    .Menu ul li {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .Menu ul li a:link,
+    .Menu ul li a:visited{
+        text-decoration: underline;
+        color: #1c1c1c;
+    }
+}

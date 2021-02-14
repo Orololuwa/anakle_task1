@@ -1,0 +1,11 @@
+.MainLeft{
+    display: inline-block;
+    width: 48%;
+}
+
+@media only screen and (max-width: 900px) {
+    .MainLeft{
+        display: block;
+        width: 100%;
+    }
+}
