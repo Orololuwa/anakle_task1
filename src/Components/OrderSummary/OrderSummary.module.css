@@ -86,6 +86,7 @@
         
     .OrderSummary .Description .col1 h3{
         font-size: 1.8rem;
+        display: none;
     }
     
     .OrderSummary .Description .col1 p{
